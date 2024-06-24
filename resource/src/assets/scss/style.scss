@@ -1,0 +1,247 @@
+$blue:#0068C8;
+$light:#fff;
+$dark:#000;
+
+.navbar-first {
+    ul {
+
+        li {
+            list-style: none;
+            i {
+                color: $blue;
+                font-size: 22px;
+            }
+
+            span {
+                color: rgb(182, 178, 178);
+                font-size: 14px;
+            }
+
+            a {
+                font-size: 17px !important;
+                font-family: Arial, Helvetica, sans-serif !important;
+                font-weight: 600 !important;
+            }
+
+            .bar {
+                font-size: 30px !important;
+                color: $dark !important;
+            }
+        }
+    }
+
+    img {
+        width: 135px;
+        height: 36px;
+    }
+
+    .cart {
+        font-size: 24px;
+    }
+
+    form {
+        border: 2px solid $blue;
+        width: 450px;
+        height: 50px;
+        border-radius: 5px;
+        background-color: rgb(243, 242, 242);
+
+        input,
+        button,
+        select {
+            border: none;
+            background-color: rgb(243, 242, 242);
+        }
+
+        button {
+            width: 100px;
+            background-color: $blue;
+            color: $light;
+            font-weight: 600;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+    }
+}
+
+.second-nav {
+    .text {
+        font-size: 20px;
+        width: 280px;
+        border-right: 1px solid rgb(182, 178, 178);
+    }
+
+    i {
+        font-size: 18px;
+    }
+
+    ul {
+        width: 750px;
+        border-right: 1px solid rgb(182, 178, 178);
+    }
+
+    li {
+        list-style: none;
+        font-size: 18px;
+        color: $dark;
+        font-weight: 500;
+        font-family: Arial, Helvetica, sans-serif;
+
+        .heart {
+            color: $blue !important;
+            font-size: 22px !important;
+        }
+
+        a {
+            text-decoration: none;
+        }
+    }
+
+    li:hover {
+        color: $blue;
+    }
+
+    .text-p {
+        font-size: 20px;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: 500;
+    }
+}
+
+.slider-part{ 
+    .dark{
+    background-color: #242323 !important;
+} 
+    background-color: rgb(231, 229, 229);
+    width: 100wh;
+}
+   .buttons {
+        
+               button {
+            width: 180px;
+            height: 100px;
+            border: none;
+            border-radius: 8px;
+            font-size: 22px;
+            background-color: $light !important;
+
+            i {
+                color: $blue;
+                font-size: 24px;
+
+            }
+        
+     
+        }
+        .dark{
+            button {
+                width: 180px;
+                height: 100px;
+                border: none;
+                border-radius: 8px;
+                font-size: 22px;
+                background-color: $light !important;
+    
+                i {
+                    color: $blue;
+                    font-size: 24px;
+    
+                }
+        }
+    }
+}
+
+.carousel-item {
+    background-color: #192C57;
+    height: 470px;
+    border-radius: 14px;
+
+    img {
+        object-fit: contain;
+        width: 400px;
+        background-color: #192C57;
+    }
+
+    .slider {
+
+        h1,
+        p {
+            color: $light;
+        }
+
+        span {
+            font-size: 22px;
+            color: orange;
+            font-weight: 600;
+        }
+
+        button {
+            width: 160px;
+            height: 60px;
+            border: 1px solid $blue;
+            background-color: $blue;
+            border-radius: 10px;
+            color: $light;
+            font-weight: 600;
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 15px;
+        }
+    }
+}
+table{
+    border: 3px solid darkblue;
+    tfoot {
+    tr {
+        td {
+            button {
+                font-size: 25px !important;
+            }
+        }
+    }
+}
+}
+.wishlist{
+    color: red;
+    font-size: 24px;
+}
+.wishlist-btn{
+    display: none;
+}
+.card:hover .wishlist-btn{
+display: inline;
+}
+.active{
+    background-color: #f0efef !important;
+    color: #1c4ab8 !important;
+    box-shadow: none !important;
+    border: none !important;
+}
+.list-group-item{
+    img{
+        width: 60px !important;
+    }
+}
+*{
+     .dark{
+        background-color: #000 !important;
+        color: #fff !important;
+     }
+}
+  
+  .dark{
+        
+        .second-nav{
+            li{
+                color: $light;
+            }
+        }
+    }
+    .light{
+        background-color: #fff !important;
+        color: #242323;
+        .second-nav{
+            li{
+                color: $blue;
+            }
+        }
+    }
+   
